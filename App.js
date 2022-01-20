@@ -7,6 +7,7 @@ import DemoImage from './src/Component/DemoImage';
 import DemoInput from './src/Component/DemoInput';
 import DemoStyle from './src/Component/DemoStyle';
 import ExamplePage from './src/Component/ExamplePage';
+import BaiTap02 from './src/Component/BaiTap02';
 
 const App = ()=>{
   return (
@@ -15,8 +16,9 @@ const App = ()=>{
       <StateLess />
       <DemoImage />
       <DemoInput />
-      <DemoStyle /> */}
-      <ExamplePage />
+      <DemoStyle />
+      <ExamplePage /> */}
+      <BaiTap02 />
     </ Fragment>
   );
 }
