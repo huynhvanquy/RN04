@@ -11,6 +11,12 @@ import BaiTap02 from './src/Component/BaiTap02';
 import BiddingData from './src/HanderComponent/BiddingData';
 import ExamBidding from './src/HanderComponent/ExamBidding';
 import BaiTap03 from './src/Component/BaiTap03';
+import RenderWithMap from './src/Component/RenderWithMap';
+import DemoProps from './src/Props/DemoProps';
+import DemoScrollView from './src/Props/DemoScrollView';
+import DemoFlatList from './src/Props/DemoFlatList';
+import DemoSectionList from './src/Props/DemoSectionList';
+import ExamRenderMap from './src/Props/ExamRenderMap';
 
 const App = ()=>{
   return (
@@ -24,7 +30,13 @@ const App = ()=>{
       <BaiTap02 />
       <BiddingData /> */}
       {/* <ExamBidding /> */}
-      <BaiTap03 />
+      {/* <BaiTap03 /> */}
+      {/* <RenderWithMap /> */}
+      <DemoProps />
+      {/* <DemoScrollView /> */}
+      {/* <DemoFlatList /> */}
+      {/* <DemoSectionList /> */}
+      {/* <ExamRenderMap /> */}
     </ Fragment>
   );
 }
