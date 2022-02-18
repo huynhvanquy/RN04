@@ -17,6 +17,7 @@ import DemoScrollView from './src/Props/DemoScrollView';
 import DemoFlatList from './src/Props/DemoFlatList';
 import DemoSectionList from './src/Props/DemoSectionList';
 import ExamRenderMap from './src/Props/ExamRenderMap';
+import GameApp from './src/GameApp';
 
 const App = ()=>{
   return (
@@ -32,11 +33,12 @@ const App = ()=>{
       {/* <ExamBidding /> */}
       {/* <BaiTap03 /> */}
       {/* <RenderWithMap /> */}
-      <DemoProps />
+      {/* <DemoProps /> */}
       {/* <DemoScrollView /> */}
       {/* <DemoFlatList /> */}
       {/* <DemoSectionList /> */}
       {/* <ExamRenderMap /> */}
+      <GameApp />
     </ Fragment>
   );
 }
