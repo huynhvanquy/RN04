@@ -18,6 +18,8 @@ import DemoFlatList from './src/Props/DemoFlatList';
 import DemoSectionList from './src/Props/DemoSectionList';
 import ExamRenderMap from './src/Props/ExamRenderMap';
 import GameApp from './src/GameApp';
+import DemoCallAPI from './src/DemoCallAPI';
+import LoginScreen from './src/LoginUI';
 
 const App = ()=>{
   return (
@@ -38,7 +40,9 @@ const App = ()=>{
       {/* <DemoFlatList /> */}
       {/* <DemoSectionList /> */}
       {/* <ExamRenderMap /> */}
-      <GameApp />
+      {/* <GameApp /> */}
+      {/* <DemoCallAPI /> */}
+      <LoginScreen />
     </ Fragment>
   );
 }
